@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "810140763214",
+    "project_id": "memereact-ac49f",
+    "storage_bucket": "memereact-ac49f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810140763214:android:8d692c66204d696797af1f",
+        "android_client_info": {
+          "package_name": "com.example.memereact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810140763214-pmct8nglgk5v979fj0le52l47pjlh26n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.memereact",
+            "certificate_hash": "d46742ac3c62e421ceac223c769d7634a60a463a"
+          }
+        },
+        {
+          "client_id": "810140763214-2f3apr7s0r7nmqdj07aq5qtu6598boqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOaFJwWz0IsvVCisN8R-mKw0Z2Wd8TuHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810140763214-2f3apr7s0r7nmqdj07aq5qtu6598boqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

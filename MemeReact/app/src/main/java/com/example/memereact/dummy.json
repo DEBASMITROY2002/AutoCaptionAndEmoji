@@ -1,0 +1,25 @@
+Thread thread = new Thread() {
+  @Override
+  public void run() {
+  try {
+  synchronized (this) {
+  Activity activity = (Activity) SendPostActivity.this;
+  activity.runOnUiThread(new Runnable() {
+  @Override
+  public void run() {
+  try {
+  progressBar.setVisibility(View.GONE);
+  progressBar.setVisibility(View.VISIBLE);
+} catch (Exception e) {
+  e.printStackTrace();
+}
+}
+});
+}
+} catch (Exception e) {
+e.printStackTrace();
+}
+}
+};
+thread.setPriority(10);
+thread.start();
